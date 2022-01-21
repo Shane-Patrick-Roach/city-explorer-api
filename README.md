@@ -1,64 +1,179 @@
-# city-explorer-api
+# Project Name = City Explorer
 
 **Author**: Shane Roach
-**Version**: 1.0.0 
+**Version**: 1.0.5 
 
 ## Overview
-<!-- Provide a high level overview of what this application is and why you are building it, beyond the fact that it's an assignment for this class. (i.e. What's your problem domain?) -->
+
+
+
+### When using the app.
+
+1. Clone down repo.
+2. Reference env.sample for correct access key placement.
+
 
 ## Getting Started
-<!-- What are the steps that a user must take in order to build this app on their own machine and get it running? -->
+
 
 ## Architecture
 <!-- Provide a detailed description of the application design. What technologies (languages, libraries, etc) you're using, and any other relevant design information. -->
 
 ## Change Log
+
 <!-- Use this area to document the iterative changes made to your application as each feature is successfully implemented. Use time stamps. Here's an example:
 
 01-01-2001 4:59pm - Application now has a fully-functional express server, with a GET route for the location resource. -->
 
 
-### Name of feature: Setup Server Repository
 
--Estimate of time needed to complete: _____
+### WRRC's
 
--Start time: _____
-
--Finish time: _____
-
--Actual time needed to complete: _____
+![Lab 6 WRRC!](/images/lab6.png "Lab 7 WRRC")
+![Lab 7 WRRC!](/images/lab7.png "Lab 7 WRRC")
+![Lab 8 WRRC!](/images/lab8.png "Lab 7 WRRC")
+![Lab 9 WRRC!](/images/lab9.png "Lab 7 WRRC")
 
 
+### Lab 06
 
-### Name of feature: Weather Placeholder
+#### Name of feature: 1. Set up your React repository & API keys.
 
--Estimate of time needed to complete: _____
+- Estimate of time needed to complete:  1 hr
 
--Start time: _____
+- Start time: 3:15p pm
 
--Finish time: _____
+- Finish time: 4:00 pm
 
--Actual time needed to complete: _____
+- Actual time needed to complete: 45min
 
+#### Name of feature: 2. Locations
 
-### Name of feature: 
+- Estimate of time needed to complete: 1.5hr
 
--Estimate of time needed to complete: _____
+- Start time: 4:20 pm
 
--Start time: _____
+- Finish time: 5:50 pm
 
--Finish time: _____
-
--Actual time needed to complete: _____
-
-
+- Actual time needed to complete: 30 min
 
 
+#### Name of feature: 3. Map
 
-### WRRC
+- Estimate of time needed to complete: 1.5hr
 
-![Lab 7 WRRC!](/images/lab.07.CD.png "Lab 7 WRRC")
+- Start time: 4:20 pm
+
+- Finish time: 5:50 pm
+
+- Actual time needed to complete: 30 min. 
+
+#### Name of feature: 4. Errors
+
+- Estimate of time needed to complete: 30 min
+
+- Start time: 7:00 pm
+
+- Finish time: n/a
+
+- Actual time needed to complete: 2hrs
+
+
+### Lab 07
+
+#### Name of feature: 1. Set up server repository
+
+- Estimate of time needed to complete: 30 min
+
+- Start time: 7:00 pm
+
+- Finish time: n/a
+
+- Actual time needed to complete: 2hrs
+
+
+#### Name of feature: 2. Weather Placeholder
+
+- Estimate of time needed to complete: 30 min
+
+- Start time: 7:00 pm
+
+- Finish time: n/a
+
+- Actual time needed to complete: 2hrs
+
+
+#### Name of feature: 3. Errors Revisited
+
+- Estimate of time needed to complete: 30 min
+
+- Start time: 7:00 pm
+
+- Finish time: n/a
+
+- Actual time needed to complete: WIP
+
+
+### Lab 08
+
+
+#### Name of feature: 1. Weather (live)
+
+- Estimate of time needed to complete: 3 hrs
+
+- Start time: 2:00pm
+
+- Finish time: n/a
+
+- Actual time needed to complete: 5 hrs
+
+
+#### Name of feature: 2. Movies
+
+- Estimate of time needed to complete: 2hrs
+
+- Start time: n/a
+
+- Finish time: n/a
+
+- Actual time needed to complete: 3 hrs
+
+
+#### Name of feature: 3. Publish: Deploy Server.
+
+- Estimate of time needed to complete: 1 hr
+
+- Start time: n/a
+
+- Finish time: n/a
+
+- Actual time needed to complete: 2hrs
+
+### Lab 09
+
+#### Name of feature: 1. Refactor Backend
+
+- Estimate of time needed to complete: 1 hr
+
+- Start time: 3:00 pm
+
+- Finish time: 3:45 pm
+
+- Actual time needed to complete: 45 min
+
+
+#### Name of feature: 2. Refactor Frontend
+
+- Estimate of time needed to complete: 45min
+
+- Start time: 3:30pm
+
+- Finish time: 5:00pm
+
+- Actual time needed to complete: 1.25hrs
+
+
 
 ## Credit and Collaborations
-<!-- Give credit (and a link) to other people or resources that helped you build this application. -->
-- Ryan Galloway Demo code and Lecture 07
+
+- Ryan Galloway for helps and tips
