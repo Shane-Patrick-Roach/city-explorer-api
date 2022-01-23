@@ -4,7 +4,7 @@
 const axios = require('axios');
 
 
-let cache = {};
+let cache = { };
 
 
 async function getMovies(request, response) {
@@ -16,12 +16,13 @@ async function getMovies(request, response) {
     if (cache[key] && Date.now() - cache[key].timestamp < (1000 * 100)) {
       console.log('cache hit!');
       response.send(cache[key].data);
+      console.log(cache);
     } else {
       console.log('cache miss');
 
       let url = `https://api.themoviedb.org/3/search/movie?api_key=${process.env.MOVIE_API_KEY}&query=${location}`;
 
-      console.log(url);
+
       const movieData = await axios.get(url);
 
       let groomedMovies = movieData.data.results.map(movie => new Movie(movie));
@@ -34,9 +35,8 @@ async function getMovies(request, response) {
       response.send(groomedMovies);
     }
 
-  } catch (error){ response.send('error');}
-
-}
+  } catch {response.status(500).send('the server encountered an unexpected condition that prevented it from fulfilling the request.')}
+};
 
 class Movie {
   constructor(movie){
